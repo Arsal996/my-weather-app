@@ -1,0 +1,65 @@
+body {
+    font-family: 'Ubuntu', sans-serif
+}
+
+/* Wheather app */
+.overlay{
+    width: 109%;
+    /* height: auto; */
+    height: 340px;
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.w-app {
+    background-image: url(../img/weather.jpg);
+    background-size: cover;
+    width: 40%;
+    height: 340px;
+    padding: 0px 25px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading3{
+     margin-bottom: -30px;
+     margin-top: 70px;
+     text-align: center;
+}
+.w-app h1{
+      font-size: 30px;
+      margin-top: 70px;
+      color: #fff;
+      text-align: center;
+      text-shadow:  1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.row {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+#weather{
+     margin-top: 0px;
+     margin-left: -10px;
+} 
+#weather img{
+    margin: 0;
+}
+#weather h3, h5{
+     margin: 5px;
+     color: #fff;
+     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.row input {
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    color: black;
+    outline: none;
+    border-radius: 20px;
+    opacity: 0.7;
+    box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
